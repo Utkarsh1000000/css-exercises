@@ -1,1 +1,13 @@
-/* Add CSS Styling */
+.class-one {
+    background-color: black;
+    color: white;
+}
+
+.class-two {
+    background-color: yellow;
+}
+
+.common-class {
+    font-family: Helvetica, "Times New Roman", sans-serif;
+    font-size: 28px;
+}
