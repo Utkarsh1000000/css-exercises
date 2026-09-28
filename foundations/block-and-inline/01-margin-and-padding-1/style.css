@@ -6,23 +6,35 @@ body {
 .one {
   background: pink;
   border: 3px solid blue;
-  /* CHANGE ME */
-  padding: 0px;
-  margin: 0px;
+  padding: 32px;
+  margin: 12px;
+  color: black;
 }
+
+/*
+When we set margin: 5px, all four sides get 5px margin.
+Since the body has a max-width of 600px, and there was no space left 
+horizontally(left and right margin) after putting the box, therefore 
+the box has to shrink to fit within the 600px width.
+
+But when we set auto for the left and right margins, the browser
+does not shrink the box because auto only gives margin when there is
+available space. In our case, there was zero available space, so
+the auto margins become 0px and no horizontal margin is added.
+*/
 
 .two {
   background: lightblue;
   border: 3px solid purple;
-  /* CHANGE ME */
-  margin-bottom: 0px;
+  margin-bottom: 48px;
+  color: black;
 }
 
 .three {
   background: peachpuff;
   border: 3px solid brown;
-  width: 200px;
-  /* CHANGE ME */
-  padding: 0px;
-  margin-left: 0px;
+  width: 190px;
+  padding: 32px;
+  margin-left: 345px;
+  color: black;
 }
